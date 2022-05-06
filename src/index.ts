@@ -1,6 +1,6 @@
-const server = require('./api/server');
+import { server } from './api/server';
 
-const port = 5000;
+const port: number = 5000;
 
 // START YOUR SERVER HERE
 server.listen(port, () => {
